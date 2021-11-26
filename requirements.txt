@@ -14,7 +14,7 @@ aiohttp
 requests
 heroku3
 motor
-yt-dlp
+git+https://github.com/Itsunknown-12/yt-dl@master
 psutil
 future
 wget
