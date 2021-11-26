@@ -69,6 +69,9 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
 
+DEPLOY TO RAILWAY 
+
+[![Deploy to railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMeizzmrperfect%2Fmrpe&plugins=postgresql&envs=API_ID%2CAPI_HASH%2CSESSION%2CSUPPORT%2CSUPPORT_GROUP%2CBOT_TOKEN%2COWNER_ID)
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
