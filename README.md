@@ -71,7 +71,8 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 
 DEPLOY TO RAILWAY 
 
-[![Deploy to railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMeizzmrperfect%2Fmrpe&plugins=postgresql&envs=ALIVE_NAME%2CAPI_ID%2CAPI_HASH%2CASSISTANT_NAME%2CBOT_NAME%2CBOT_TOKEN%2CBOT_USERNAME%2CGROUP_SUPPORT%2CSESSION_NAME%2CSUDO_USERS%2COWNER_ID)
+[![Deploy to railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMeizzmrperfect%2Fmrpe&plugins=postgresql&envs=ALIVE_NAME%2CAPI_ID%2CAPI_HASH%2CASSISTANT_NAME%2CBOT_NAME%2CBOT_TOKEN%2CBOT_USERNAME%2CGROUP_SUPPORT%2CSESSION_NAME%2CSUDO_USERS%2COWNER_NAME%2C UPDATES_CHANNEL)
+
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
