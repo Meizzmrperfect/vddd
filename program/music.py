@@ -86,6 +86,11 @@ async def play(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
+        )
+
+        return 
+    if not a.can_add_new_admins:
+        await m.reply_text"missing required permission:" + "\n\n» ❌ __add admin__"
         return
     try:
         ubot = (await user.get_me()).id
@@ -302,6 +307,12 @@ async def stream(c: Client, m: Message):
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
+    )
+        return
+    if not a.can_add_new_admins:
+        await m.reply_text(
+            "missing required permission:" + "\n\n» ❌ __add admin__"
+          return
     try:
         ubot = (await user.get_me()).id
         b = await c.get_chat_member(chat_id, ubot)
