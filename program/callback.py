@@ -43,10 +43,6 @@ async def cbstart(_, query: CallbackQuery):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
-                [
-                    InlineKeyboardButton(
-             
-                ],
             ]
         ),
         disable_web_page_preview=True,
@@ -104,7 +100,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 here is the basic commands:
 
-» /mplay (song name/link) - play music on video chat
+» /play (song name/link) - play music on video chat
 » /stream (query/link) - stream the yt live/radio live music
 » /vplay (video name/link) - play video on video chat
 » /vstream - play live video from yt live/m3u8
