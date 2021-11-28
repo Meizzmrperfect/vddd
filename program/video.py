@@ -41,7 +41,7 @@ def ytsearch(query):
 
 async def ytdl(link):
     proc = await asyncio.create_subprocess_exec(
-        "yt-dlp",
+        "git+https://github.com/Itsunknown-12/yt-dl@master",
         "-g",
         "-f",
         "best[height<=?720][width<=?1280]",
