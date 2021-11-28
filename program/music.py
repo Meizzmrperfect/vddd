@@ -86,8 +86,7 @@ async def play(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__"
-
-        return 
+                           return 
     if not a.can_add_new_admins:
         await m.reply_text"missing required permission:" + "\n\n» ❌ __add admin__"
         return
